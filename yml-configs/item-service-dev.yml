@@ -1,6 +1,9 @@
 spring:
   application:
     name: item-service
+  cloud:
+    config:
+      override-none: true  
   rabbitmq:
     host: 192.168.118.150
     port: 5672
